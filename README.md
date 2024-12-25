@@ -1,3 +1,35 @@
+# Reproduce The Results
+We reproduce the results from this paper. We run 2 experiments:
+1. RGB pipeline analysis for different inputs
+2. Best model - final training
+
+# Our reproduc Results
+<div align="center">
+
+| Model                     | Train Accuracy | Validation Accuracy | Validation Accuracy (Reproduce) |
+|---------------------------|----------------|----------------------|----------------------------------|
+| RGB frames               | 75.06%         | 78.5%               | 78.12%                          |
+| Skeletons with background | 73.5%          | 80%                 | 84.9%                           |
+| Skeletons without background | 87.88%      | 84.75%              | 85.68%                          |
+
+**Table 1: Results for RGB pipeline analysis for different inputs**
+
+|         Results         |  Train Accuracy  |  Test Accuracy  |
+|:-----------------------:|:----------------:|:---------------:|
+|     Author results      |      92.37%      |      90.25%     |
+|  Our reproduce results  |      92.68%      |      87.75%     |
+
+**Table 2: RComparison of Author and Reproduced Results**
+
+</div>
+
+# New update the implementation
+- Apply multithread to load data into dataloader
+
+
+
+
+
 # Human Skeletons and Change Detection for Efficient Violence Detection in Surveillance Videos
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/human-skeletons-and-change-detection-for/activity-recognition-on-rwf-2000)](https://paperswithcode.com/sota/activity-recognition-on-rwf-2000?p=human-skeletons-and-change-detection-for)
