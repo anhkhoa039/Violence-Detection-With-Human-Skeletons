@@ -29,7 +29,13 @@ We reproduce the results from this paper. We run 2 experiments:
 - Release our best model for this task (87.75%) ([best model](Violence-Detection-With-Human-Skeletons/experiments/RWF-2000/notebooks/best_model_no_bg_50epoch.keras)).
 
 
-
+# Some advises for reproducing the results
+1. Install openpose
+- We follow exactly the instructions from the blog that the authors suggest ([blog](https://amir-yazdani.github.io/post/openpose/))
+2. Install requirements:
+- check the tensorflow and keras version
+3. Running on GPU
+- Check your GPU ID when running the original code. We run on only 1 GPU which `index 0` so we changed a little bit when initializing GPU .
 
 
 # Human Skeletons and Change Detection for Efficient Violence Detection in Surveillance Videos
