@@ -23,7 +23,7 @@ We reproduce the results from this paper. We run 2 experiments:
 
 </div>
 
-# New update the implementation
+# New Updates to the Implementation for Reproduction
 - Apply multithread to load data into `dataloader` (see [this notebook](Violence-Detection-With-Human-Skeletons/experiments/RWF-2000/notebooks/1.%20RGB%20pipeline%20analysis/1.%20Results%20for%20different%20inputs/Original%20videos.ipynb)
 )
 - Release our best model for this task (87.75%) ([best model](Violence-Detection-With-Human-Skeletons/experiments/RWF-2000/notebooks/best_model_no_bg_50epoch.keras)).
